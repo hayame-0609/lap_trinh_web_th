@@ -19,6 +19,11 @@
 	///////////////////////////////////
 	// DEFAULT MENU
 	{
+		path: '/abc',
+		name: 'Quanlysp',
+		component: '@/BaiTap01/index',
+	},
+	{
 		path: '/dashboard',
 		name: 'Dashboard',
 		component: './TrangChu',
