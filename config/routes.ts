@@ -42,7 +42,18 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+	{
+  path: '/minigame',
+  name: 'minigame',
+  component: './minigame/minigame',
 
+  
+	},
+	{
+		path: '/study',
+		name: 'QuanLyHocTap',
+		component: './quan_ly_hoc_tap/quan_ly_hoc_tap',
+	},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
