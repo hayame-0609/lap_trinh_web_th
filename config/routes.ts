@@ -42,7 +42,36 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
-
+{
+  path: '/nhan-vien',
+  name: 'Nhân viên',
+  icon: 'user',
+  component: './bai_th03/nhan-vien',
+},
+{
+  path: '/dich-vu',
+  name: 'Dịch vụ',
+  icon: 'appstore',
+  component: './bai_th03/dich-vu',
+},
+{
+  path: '/lich-hen',
+  name: 'Lịch hẹn',
+  icon: 'calendar',
+  component: './bai_th03/lich-hen',
+},
+{
+  path: '/danh-gia',
+  name: 'Đánh giá',
+  icon: 'star',
+  component: './bai_th03/danh-gia',
+},
+{
+  path: '/thong-ke',
+  name: 'Thống kê',
+  icon: 'dashboard',
+  component: './bai_th03/thong-ke',
+},
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
