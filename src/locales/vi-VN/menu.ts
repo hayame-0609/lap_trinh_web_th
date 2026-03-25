@@ -6,12 +6,11 @@ export default {
 	'menu.About': `Giới thiệu ${APP_CONFIG_TIEN_TO_TRUONG.toLowerCase()}`,
 	'menu.News': 'Tin tức',
 	'menu.nhan-vien': 'Nhân viên',
-  'menu.dich-vu': 'Dịch vụ',
-  'menu.lich-hen': 'Lịch hẹn',
-  'menu.danh-gia': 'Đánh giá',
-  'menu.thong-ke': 'Thống kê',
-
-
+'menu.SoVanBang': 'Sổ văn bằng',
+'menu.QuyetDinh': 'Quyết định',
+'menu.CauHinh': 'Cấu hình',
+'menu.VanBang': 'Văn bằng',
+'menu.TraCuu': 'Tra cứu',
 	'menu.DanhMuc': 'Danh mục',
 	'menu.DanhMuc.ChucVu': 'Chức vụ',
 };
