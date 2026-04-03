@@ -42,30 +42,32 @@
 		icon: 'OrderedListOutlined',
 		component: './TodoList',
 	},
+
 {
-  path: '/so-van-bang',
-  name: 'SoVanBang',
-  component: './baith04/so-van-bang',
-},
-{
-  path: '/quyet-dinh',
-  name: 'QuyetDinh',
-  component: './baith04/quyet-dinh',
-},
-{
-  path: '/cau-hinh',
-  name: 'CauHinh',
-  component: './baith04/cau-hinh',
-},
-{
-  path: '/van-bang',
-  name: 'VanBang',
-  component: './baith04/van-bang',
-},
-{
-  path: '/tra-cuu',
-  name: 'TraCuu',
-  component: './baith04/tra-cuu',
+  path: '/th05',
+  name: 'th05',
+  routes: [
+    {
+      path: '/th05/clb',
+      name: 'clb',
+      component: './th05/clb',
+    },
+    {
+      path: '/th05/don',
+      name: 'don',
+      component: './th05/don',
+    },
+    {
+      path: '/th05/thanh-vien',
+      name: 'thanh-vien',
+      component: './th05/thanh-vien',
+    },
+    {
+      path: '/th05/thong-ke',
+      name: 'thong-ke',
+      component: './th05/thong-ke',
+    },
+  ],
 },
 	// DANH MUC HE THONG
 	// {
