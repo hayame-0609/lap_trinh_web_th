@@ -44,31 +44,52 @@
 	},
 
 {
-  path: '/th05',
-  name: 'th05',
-  routes: [
-    {
-      path: '/th05/clb',
-      name: 'clb',
-      component: './th05/clb',
-    },
-    {
-      path: '/th05/don',
-      name: 'don',
-      component: './th05/don',
-    },
-    {
-      path: '/th05/thanh-vien',
-      name: 'thanh-vien',
-      component: './th05/thanh-vien',
-    },
-    {
-      path: '/th05/thong-ke',
-      name: 'thong-ke',
-      component: './th05/thong-ke',
-    },
-  ],
-},
+		path: '/th06',
+		name: 'th06',
+		icon: 'CompassOutlined',
+		routes: [
+			{
+				path: '/th06',
+				redirect: '/th06/home',
+			},
+			{
+				path: '/th06/home',
+				name: 'home',
+				component: './baith06/index',
+			},
+			{
+				path: '/th06/lich-trinh',
+				name: 'lich-trinh',
+				component: './baith06/lich-trinh/index',
+			},
+			{
+				path: '/th06/ngan-sach',
+				name: 'ngan-sach',
+				component: './baith06/ngan-sach/index',
+			},
+			{
+				path: '/th06/admin',
+				name: 'admin',
+				routes: [
+					{
+						path: '/th06/admin',
+						redirect: '/th06/admin/diem-den',
+					},
+					{
+						path: '/th06/admin/diem-den',
+						name: 'diem-den',
+						component: './baith06/admin/diem-den/index',
+					},
+					{
+						path: '/th06/admin/thong-ke',
+						name: 'thong-ke',
+						component: './baith06/admin/thong-ke/index',
+					},
+				],
+			},
+		],
+	},
+
 	// DANH MUC HE THONG
 	// {
 	// 	name: 'DanhMuc',
