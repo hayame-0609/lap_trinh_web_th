@@ -6,17 +6,14 @@ export default {
 	'menu.About': `Giới thiệu ${APP_CONFIG_TIEN_TO_TRUONG.toLowerCase()}`,
 	'menu.News': 'Tin tức',
 	'menu.nhan-vien': 'Nhân viên',
-	'menu.th06': 'Du lịch',
-	'menu.th06.home': 'Trang chủ',
-	'menu.th06.lich-trinh': 'Lịch trình',
-	'menu.th06.ngan-sach': 'Ngân sách',
 
-	
-	'menu.th06.admin': 'Quản trị',
-	'menu.th06.admin.diem-den': 'Quản lý điểm đến',
-	'menu.th06.admin.thong-ke': 'Thống kê',
 	'menu.DanhMuc': 'Danh mục',
 	'menu.DanhMuc.ChucVu': 'Chức vụ',
+
+	'menu.KTGK': 'Kiểm tra giữa kỳ',
+	'menu.KTGK.DanhSachDonHang': 'Danh sách đơn hàng',
+	'menu.KTGK.ThemVaChinhSua': 'Thêm và chỉnh sửa',
+	'menu.KTGK.HuyDonHang': 'Hủy đơn hàng',
 };
 
 
